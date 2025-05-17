@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ceu.css">
+    <title>Formulario</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: montserrat;
+        }
+
+        body{
+            background: black;
+            height: 100vh;
+            color: white;
+            background-image: url(img/capa_form.png);
+            background-size: 100%;
+            background-position: top left;
+            background-repeat: no-repeat;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .caixa_form{
+            /* border: solid 1px white; */
+            width: 50%;
+            text-align: center;
+            margin: 0 10%;
+            padding: 30px 50px;
+            border-radius: 20px;
+
+            backdrop-filter: blur(5px);
+            box-shadow: 0 0 20px #f5af5e9a;
+        }
+
+        .caixa_form form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        h2{
+            text-transform: uppercase;
+            color: #f5af5e;
+        }
+
+        .caixa_form h2 + p{
+            margin: 20px 0;
+        }
+
+        .caixa_img{
+            width: 50%;
+            /* border: solid 1px green; */
+        }
+        .caixa_img img{
+            width: 100%;
+            margin-top: 100px;
+        }
+
+        input{
+            height: 35px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input[type='submit']{
+            line-height: 10px;
+            background: #31d24e;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: 0.2s;
+
+        }
+
+        input[type='submit']:hover{
+             background: #46e964;
+        }
+
+        input:focus{
+            outline: none;
+        }
+
+        @media (min-width: 300px) and (max-width:500px) {
+            body{
+                flex-direction: column;
+                background-image: url(img/capa_form_cll.png);
+                overflow: auto;
+            }
+
+            .caixa_form{
+                width: 80%;
+                padding: 50px 20px;
+                margin-top: 280px;
+            }
+
+            .caixa_img{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--efeito estrelas-->
+    <div class="container-ceu">
+        <div class="bolhas">
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
+            <span style="--i:28"></span>
+            <span style="--i:26"></span>
+            <span style="--i:22"></span>
+            <span style="--i:4"></span>
+            <span style="--i:13"></span>
+            <span style="--i:27"></span>
+            <span style="--i:17"></span>
+            <span style="--i:9"></span>
+            <span style="--i:15"></span>
+            <span style="--i:24"></span>
+            <span style="--i:12"></span>
+            <span style="--i:26"></span>
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
+            <span style="--i:28"></span>
+            <span style="--i:26"></span>
+            <span style="--i:22"></span>
+            <span style="--i:4"></span>
+            <span style="--i:13"></span>
+            <span style="--i:27"></span>
+            <span style="--i:17"></span>
+            <span style="--i:9"></span>
+            <span style="--i:15"></span>
+            <span style="--i:24"></span>
+            <span style="--i:12"></span>
+            <span style="--i:26"></span>
+        </div>
+    </div>
+    <!--efeito estrelas-->
+
+    <div class="caixa_form">
+        <h2>Você está quase lá!</h2>
+        <p>
+           Preencha o formulário abaixo para dar o próximo passo rumo a uma loja ortopédica mais lucrativa e profissional
+        </p>
+        <form action="https://formsubmit.co/viniciusamorimdev98@gmail.com" method="post">
+            <input type="text" placeholder="Nome">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="WhatsApp">
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://viniciusamorim98.github.io/sucesso/">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+
+    <div class="caixa_img">
+        <img src="img/mario_form.png" alt="">
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,333 @@
+@media (min-width: 300px) and (max-width:500px) {
+
+    #back-s04-s05 {
+        background-size: 300% 100%;
+        background-position: center;
+    }
+
+    #p-cll-2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    header {
+        background-image: none;
+        height: auto;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .header-txt {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #p-cll {
+        display: block;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    #p-pc {
+        display: none;
+    }
+
+    h1 {
+        font-size: 19px;
+    }
+
+    #header-p {
+        font-size: 15px;
+    }
+
+    #img-cll {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #img-cll img {
+        width: 100%;
+    }
+
+    .header-txt button {
+        width: 100%;
+        margin: 0;
+    }
+
+    /*s02 | Cadeira*/
+
+    #s02 {
+        text-align: center;
+        background-image: url(img/capacadeiracll.png);
+    }
+
+    .s02-flex {
+        flex-direction: column-reverse;
+    }
+
+    .s02-img {
+        width: 100%;
+        margin-right: 80px;
+    }
+
+    .s02-txt {
+        width: 100%;
+    }
+
+    .s02-txt h2 {
+        font-size: 30px;
+    }
+
+    .s02-txt h2+p {
+        font-size: 22px;
+    }
+
+    /*S03 | Vender mais -----*/
+
+    #s03 {
+
+        background-image: url(img/back-s03-cll.png);
+        background-repeat: no-repeat;
+    }
+
+    #s03 h2 {
+        font-size: 25px;
+    }
+
+    #s03 span {
+        font-size: 16px;
+    }
+
+    .s03-caixas {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .s03-caixa {
+        line-height: 18px;
+        width: 100%;
+
+    }
+
+    /*s04 | time comercial*/
+
+    #s04 h2 {
+        font-size: 23px;
+        margin: 0;
+    }
+
+    .s04-caixas {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .s04-caixa {
+        width: 100%;
+    }
+
+    /*s05 | oq vai receber*/
+
+    #s05 h2 {
+        font-size: 25px;
+    }
+
+    #img-pastas-pc {
+        display: none;
+    }
+
+    #img-pastas-cll {
+        margin-top: 35px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px
+    }
+
+    #img-pastas-cll img {
+        width: 80%;
+    }
+
+
+    /*S06 | pra quem é*/
+
+    #s06 {
+        background: none;
+        padding: 0;
+    }
+
+    .s06-flex {
+        flex-direction: column;
+    }
+
+    .s06-img {
+        display: none;
+    }
+
+    .s06-img-cll {
+        display: block;
+    }
+
+    .s06-img-cll img {
+        width: 100%;
+    }
+
+    .s06-txt {
+        width: 100%;
+    }
+
+    .s06-txt h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 35px;
+        margin-top: 0;
+    }
+
+    /*s07 | depoimentos*/
+    #s07 h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .depoimentos-conteiner-2{
+        flex-direction: column;
+    }
+
+    .s07-caixa-dp-2{
+        width: 100%;
+        height: auto;
+        /* text-align: justify; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .depoimentos-conteiner{
+        flex-direction: column;
+    }
+
+    .s07-caixa-dp{
+        width: 100%;
+        height: auto;
+        /* text-align: justify; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menor{
+        font-size: 12px;
+    }
+
+
+   
+
+    /*s08 | mapa de execução*/
+
+    #s08 {
+        background-image: url(img/back-mapa-cll.png);
+        background-size: 100% auto;
+    }
+
+    #s08 h2 {
+        font-size: 25px;
+    }
+
+    #mapa-pc {
+        display: none;
+    }
+
+    #mapa-cll {
+        display: block;
+        margin-top: 30px;
+    }
+
+    #mapa-cll img {
+        width: 100%;
+    }
+
+    /*s09 | pilares*/
+
+    .s09-caixas {
+        flex-direction: column;
+    }
+
+    .s09-caixa {
+        width: 100%;
+    }
+
+
+    /*s11 | bio*/
+
+    #s11 {
+        background: none;
+    }
+
+    #s11 h2 {
+        font-size: 24px;
+    }
+
+    .s11-img {
+        display: none;
+    }
+
+    #bio-cll {
+        display: block;
+    }
+
+    #bio-cll img {
+        width: 100%;
+    }
+
+    .s11-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .s11-txt h2 {
+        margin-top: 0;
+        font-size: 21px;
+    }
+
+    .s11-txt p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .s11-flex {
+        flex-direction: column;
+    }
+
+    /*s12 | Formulario*/
+
+    #s12 {
+        padding: 0;
+    }
+
+    #s12 h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .p-form {
+        margin-bottom: 25px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    #btn-enviar {
+        height: 50px;
+        background: #f59a32;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+}
